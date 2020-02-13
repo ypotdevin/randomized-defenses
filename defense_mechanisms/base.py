@@ -260,7 +260,9 @@ class CountAggregator():
 
 class MeanAggregator():
     """
-    See `CountAggregator`.
+    Like `CountAggregator` but instead of counting the number of times an
+    ensemble member predicts a class for an input, average the vote of each
+    ensemble member into one vote.
     """
     def __init__(self, representative, normalize = True):
         self._normalize = normalize
