@@ -5,3 +5,11 @@ In more detail: It contains implementations of
  * our proposed defense mechanism which we call RPENN
 
 The reason we publish our source code is to enhance reproducibility of our results and to clarify implementation details which might be not discussed extensively within the publication.
+
+---
+
+Our code make directly or inderectly use of the following third-party libraries (non-exhaustive list):
+ * [Keras](https://keras.io/) (MIT license)
+ * [scikit-learn](https://scikit-learn.org/) (New BSD license)
+ * [NumPy](https://numpy.org/) (BSD license)
+ * [Pillow](https://python-pillow.org/) (PIL Software License)
