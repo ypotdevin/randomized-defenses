@@ -211,7 +211,7 @@ def _push_into_aggregators(ccs, batches):
 def _aggregators_to_aggregation(aggregators):
     ccs = {}
     for (method, aggregator_tuple) in aggregators.items():
-        ccs[method] = map(lambda aggr: aggr.aggregation(), aggregator_tuple)
+        ccs[method] = [aggr.aggregation() for aggr in aggregator_tuple]
     return ccs
 
 
