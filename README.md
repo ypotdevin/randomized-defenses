@@ -8,7 +8,7 @@ The reason we publish our source code is to enhance reproducibility of our resul
 
 ---
 
-Our code make directly or inderectly use of the following third-party libraries (non-exhaustive list):
+Our code makes directly or inderectly use of the following third-party libraries (non-exhaustive list):
  * [Keras](https://keras.io/) (MIT license)
  * [scikit-learn](https://scikit-learn.org/) (New BSD license)
  * [NumPy](https://numpy.org/) (BSD license)
