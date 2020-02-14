@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-This module contains the defense mechanism introduced by Gu and Rigazio in
-https://arxiv.org/abs/1412.5068.
+This module contains the defense mechanism (L1 and L*) introduced by Gu and
+Rigazio in https://arxiv.org/abs/1412.5068. Our adaptation L+ is also found in
+the `GuRigazio` class.
 """
 from math import ceil
 
